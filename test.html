@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/scss/bootstrap.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__items">
+                    <div class="slider__item" v-for="(item, index) in 10" :key="index">
+                        <div class="crd" style="height: 300px; width: 300px; background-color: coral; margin-left: 20px; cursor: pointer;">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cursor"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="autonumeric/dist/autoNumeric.js"></script>
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="vue/dist/vue.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        new Vue({
+            el: '#app'
+        })
+    </script>
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
