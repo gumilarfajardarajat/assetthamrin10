@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/scss/bootstrap.css">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div style="height: 623.078px; position: relative;">
+                <div class="slider">
+                    <div class="slider__items">
+                        <div class="slider__item" v-for="(item, index) in 10" :key="index">
+                            <div style="width: 300px;">
+                                <a href="">
+                                    <div class="frame">
+                                        <img src="https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-tall-FS-0204.webp" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <p class="mb-0 font-weight-bold">Chef by</p>
+                                        <p class="mb-0 text-muted">Gordon Ramsay</p>
+                                    </div>
+                                    <div class="col text-right">
+                                        <p class="font-weight-bold">Form <span class="text-primary">$85</span></p>
+                                    </div>
+                                </div>
+                                <h5>Spaghetti Bolognese</h5>
+                                <p class="mb-0 text-muted">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                                <a href="http://" class="text-primary font-weight-bold text-decoration-none">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor"></div>
+                </div>
+            </div>
+            <div style="height: 623.078px; position: relative;">
+                <div class="slider2">
+                    <div class="slider__items2">
+                        <div class="slider__item2" v-for="(item, index) in 10" :key="index">
+                            <div style="width: 300px;">
+                                <a href="">
+                                    <div class="frame">
+                                        <img src="https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-tall-FS-0204.webp" alt="" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <p class="mb-0 font-weight-bold">Chef by</p>
+                                        <p class="mb-0 text-muted">Gordon Ramsay</p>
+                                    </div>
+                                    <div class="col text-right">
+                                        <p class="font-weight-bold">Form <span class="text-primary">$85</span></p>
+                                    </div>
+                                </div>
+                                <h5>Spaghetti Bolognese</h5>
+                                <p class="mb-0 text-muted">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                                <a href="http://" class="text-primary font-weight-bold text-decoration-none">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- <div class="container">
+
+
+            <div class="row">
+                <template v-for="item in 3">
+                    <div class="col">
+                        <div class="rounded-circle overflow-hidden" style="height: 100%">
+                            <img src="https://www.ligue1.com/-/media/Project/LFP/shared/Images/Players/2019-2020/82425.jpg" alt="" class="w-100">
+                        </div>
+                    </div>
+                </template>
+
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="vue/dist/vue.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        new Vue({
+            el: '#app'
+        })
+    </script>
+    <script src="slider.js"></script>
+    <script src="slider2.js"></script>
+</body>
+
+</html>
